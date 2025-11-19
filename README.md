@@ -1,8 +1,9 @@
-# Fullstack MERN Application
+# RepFlow
 
-## Excercise logger with a help of The Net Ninja
+## Your workout tracker
 
-<h3>API Endpoints</h3>
+### API Endpoints
+
 <p>GET      /workouts       -> Gets all the workout documents</p>
 <p>POST     /workouts       -> Creates a new workout document</p>
 <p>GET      /workouts/:id   -> Gets a single workout document</p>

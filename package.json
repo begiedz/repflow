@@ -1,0 +1,18 @@
+{
+  "name": "repflow",
+  "version": "1.0.0",
+  "description": "Workout tracker",
+  "scripts": {
+    "dev": "pnpm -C src/server dev & pnpm -C src/web dev",
+    "build": "pnpm -C src/server build && pnpm -C src/web build",
+    "lint": "pnpm -C src/server lint && pnpm -C src/web lint",
+    "test": "pnpm -C src/server test && pnpm -C src/web test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3"
+  }
+}
